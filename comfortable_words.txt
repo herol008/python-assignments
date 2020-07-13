@@ -1,0 +1,16 @@
+left = {"q", "w", "e", "r", "t", "a", "s", "d", "f", "g", "z", "x", "c", "v", "b"}
+right = {"y", "u", "i", "o", "p", "h", "j", "k", "l", "n", "m"}
+
+word = input("pls enter a word")
+
+letters_of_word = set(word)
+letters_of_word
+
+a = bool(letters_of_word.difference(left))
+
+b = bool(letters_of_word.difference(right))
+
+if a and b == True :
+    print(word, "is a comfortable word")
+else:
+    print(word, "is not a comfortable word")
