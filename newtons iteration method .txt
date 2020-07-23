@@ -1,0 +1,10 @@
+x = int(input("kokunu bulmak istediginiz sayiyi girin: "))
+
+iteration = int(input("how many iterations? "))
+
+r = x
+
+for i in range (iteration):
+    r = (r + x/r) / 2
+    
+print(r)
