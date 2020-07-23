@@ -1,0 +1,4 @@
+satir = int(input("bir satir sayisi yazin"))
+yildiz = "*"
+for i in range(1, satir, 2):
+    print(f"{yildiz*i:^20}")
