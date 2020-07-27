@@ -1,0 +1,10 @@
+cumle = input("bir cumle yazin")
+sozluk = {}
+
+for i in cumle:
+    keys = sozluk.keys()
+    if i in keys:
+        sozluk[i] += 1
+    else:
+        sozluk[i] = 1
+sozluk
